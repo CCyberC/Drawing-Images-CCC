@@ -4,10 +4,10 @@ PImage pic;
 //
 fullScreen();
 //Population
-imageX = width*0;
-imageY = height*0;
-imageWidth = width;
-imageHeight = height;
+imageX = displayWidth*0;
+imageY = displayHeight*0;
+imageWidth = displayWidth;
+imageHeight = displayHeight;
 pic = loadImage("wp5732424.jpg"); //Dimensions: width, height
 //
 //Rectangle Layout
