@@ -16,7 +16,19 @@ int pic1Width = 1280;
 int pic1Height = 720;
 int pic2Width = 700;
 int pic2Height = 368;
-if () {} else {} //End pic1 larger dimension ID
+int largerPic1Dimension, smallerPic1Dimension;
+Boolean widthPic1Larger;
+//
+if ( pic1Width >= pic1Height ) { //ID Larger Dimension: Landscape and Square
+  largerPic1Dimension = pic1Width;
+  smallerPic1Dimension = pic1Height;
+  widthPic1Larger = true;
+} else {
+} //End pic1 larger dimension ID
+//
+if () {
+} else {
+} //End pic2 larger dimension ID
 //
 rectXPic1 = displayWidth*1/4; 
 rectYPic1 = displayHeight*0; 
