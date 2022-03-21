@@ -11,6 +11,12 @@ fullScreen(); //teacher is using: size(900,680); use displayWidth and displayHei
 pic1 = loadImage("maxresdefault.jpg"); //Dimensions: width, height: 1280 by 720
 pic2 = loadImage("601becd357e76-png__700__700.jpg"); //Dimensions: width, height: 700 by 368
 //
+//Aspect Ratio Calculations
+int pic1Width = 1280;
+int pic1Height = 720;
+int pic2Width = 700;
+int pic2Height = 368;
+//
 rectXPic1 = displayWidth*1/4; 
 rectYPic1 = displayHeight*0; 
 rectWidthPic1 = displayWidth*1/2; 
