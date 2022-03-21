@@ -41,14 +41,14 @@ if ( pic2Width >= pic2Height) {
 } //End pic2 larger dimension ID
 println (smallerPic1Dimension, largerPic1Dimension, smallerPic2Dimension, largerPic2Dimension); //Verifying Variable Details (ID Larger Dimension)
 // Note: single line IFs can be summarized to IF-ELSE or IF-ELSEIF-ELSE
-if ( widthPic1Larger == true ) imageWidthRatioPic1 = largerPic1Dimension / largerPic1Dimension;
+if ( widthPic1Larger == true ) imageWidthRatioPic1 = float (largerPic1Dimension) / float (largerPic1Dimension);
 if ( widthPic1Larger == true ) imageHeightRatioPic1 = float (smallerPic1Dimension) / float (largerPic1Dimension);
-if ( heightPic1Larger == true ) imageWidthRatioPic1 = smallerPic1Dimension / largerPic1Dimension;
-if ( heightPic1Larger == true ) imageHeightRatioPic1 = largerPic1Dimension / largerPic1Dimension;
-if ( widthPic2Larger == true ) imageWidthRatioPic2 = largerPic2Dimension / largerPic2Dimension;
-if ( widthPic2Larger == true ) imageHeightRatioPic2 = smallerPic2Dimension / largerPic2Dimension;
-if ( heightPic2Larger == true ) imageWidthRatioPic2 = smallerPic2Dimension / largerPic2Dimension;
-if ( heightPic2Larger == true ) imageHeightRatioPic2 = largerPic2Dimension / largerPic2Dimension;
+if ( heightPic1Larger == true ) imageWidthRatioPic1 = float (smallerPic1Dimension) / float (largerPic1Dimension);
+if ( heightPic1Larger == true ) imageHeightRatioPic1 = float (largerPic1Dimension / float (largerPic1Dimension);
+if ( widthPic2Larger == true ) imageWidthRatioPic2 = float (largerPic2Dimension) / float (largerPic2Dimension);
+if ( widthPic2Larger == true ) imageHeightRatioPic2 = float (smallerPic2Dimension) / float (largerPic2Dimension);
+if ( heightPic2Larger == true ) imageWidthRatioPic2 = float (smallerPic2Dimension) / float (largerPic2Dimension);
+if ( heightPic2Larger == true ) imageHeightRatioPic2 = float (largerPic2Dimension) / float (largerPic2Dimension);
 println(imageWidthRatioPic1, imageHeightRatioPic1, imageWidthRatioPic2, imageHeightRatioPic2);
 //
 rectXPic1 = displayWidth*1/4; 
