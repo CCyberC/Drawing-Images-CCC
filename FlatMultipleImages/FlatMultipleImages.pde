@@ -16,6 +16,7 @@ int pic1Width = 1280;
 int pic1Height = 720;
 int pic2Width = 700;
 int pic2Height = 368;
+if () {} else {} //End pic1 larger dimension ID
 //
 rectXPic1 = displayWidth*1/4; 
 rectYPic1 = displayHeight*0; 
