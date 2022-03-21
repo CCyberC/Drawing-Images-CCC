@@ -24,8 +24,8 @@ if ( pic1Width >= pic1Height ) { //ID Larger Dimension: Landscape and Square
   smallerPic1Dimension = pic1Height;
   widthPic1Larger = true;
 } else { //ID Larger Dimension: Portrait mode
-  largerPic2Dimension = pic2Width;
-  smallerPic2Dimension = pic2Height;
+  largerPic1Dimension = pic1Width;
+  smallerPic1Dimension = pic1Height;
   heightPic1Larger = true;
 } //End pic1 larger dimension ID
 //
