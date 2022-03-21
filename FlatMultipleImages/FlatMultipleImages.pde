@@ -38,6 +38,7 @@ if ( pic2Width >= pic2Height) {
   smallerPic2Dimension = pic2Width;
   heightPic2Larger = true;
 } //End pic2 larger dimension ID
+println (smallerPic1Dimension, largerPic1Dimension, smallerPic2Dimension, largerPic2Dimension); //Verifying Variable Details
 //
 rectXPic1 = displayWidth*1/4; 
 rectYPic1 = displayHeight*0; 
