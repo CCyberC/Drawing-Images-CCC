@@ -59,9 +59,9 @@ rectXPic1 = displayWidth*1/4;
 rectYPic1 = displayHeight*0; 
 rectWidthPic1 = displayWidth*1/2; 
 rectHeightPic1 = displayHeight*1/2;
-rectXPic2 = displayWidth*1/8; 
+rectXPic2 = displayWidth*1/4; 
 rectYPic2 = displayHeight*1/2; 
-rectWidthPic2 = displayWidth*6/8; 
+rectWidthPic2 = displayWidth*4/8; 
 rectHeightPic2 = displayHeight*1/2;
 //
 // Final Aspect Ratio Calculations
