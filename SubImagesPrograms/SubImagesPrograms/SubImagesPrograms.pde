@@ -77,11 +77,14 @@ void setup()
   pic2HeightAdjusted = rectHeightPic2 * imageHeightRatioPic2;
   println (pic1Width, pic1Height, pic2Width, pic2Height);
   println (pic1WidthAdjusted, pic1HeightAdjusted, pic2WidthAdjusted, pic2HeightAdjusted);
+  //
+  populatingVariables();
+  //
+  imageDraw();
 }//End setup
 //
 void draw() 
 { //Note: DRAW Loop repeats 60 times per second, static images should be in SETUP, "system resources"
-  imageDraw();
   //Empty DRAW Loop, must be present for JAVA Compiler
 }//End draw
 //
