@@ -103,6 +103,3 @@ void keyPressed()
 void mousePressed() 
 {
 }//End mousePressed
-
-/*
- */
