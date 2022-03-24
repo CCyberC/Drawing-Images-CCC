@@ -13,7 +13,6 @@ void setup()
   fullScreen(); //teacher is using: size(900,680); use displayWidth and displayHeight and not width and height
   //Teacher is using Landscape Presentation, not square or portrait
   //
-  //
   populatingVariables();
   //
   imageDraw();
